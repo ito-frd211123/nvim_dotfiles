@@ -4,14 +4,24 @@ return {
     cmd = "Glance",
     keys = {
       {
-        "gp",
+        "<leader>cpd",
         "<CMD>Glance definitions<CR>",
         desc = "Peek Definition",
       },
       {
-        "gR",
+        "<leader>cpr",
         "<CMD>Glance references<CR>",
         desc = "Peek References",
+      },
+      {
+        "<leader>cpy",
+        "<CMD>Glance type_definitions<CR>",
+        desc = "Peek Type Definition",
+      },
+      {
+        "<leader>cpi",
+        "<CMD>Glance implementations<CR>",
+        desc = "Peek Implementation",
       },
     },
   },
